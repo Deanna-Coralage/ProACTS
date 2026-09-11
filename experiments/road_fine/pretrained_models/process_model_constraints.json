@@ -1,0 +1,43 @@
+{
+    "min_segment_len": 2,
+    "parallel_sets": [
+        [
+            "Add penalty",
+            "Appeal to Judge",
+            "Insert Date Appeal to Prefecture",
+            "Insert Fine Notification",
+            "Payment",
+            "Send Fine"
+        ],
+        [
+            "Add penalty",
+            "Appeal to Judge",
+            "Insert Date Appeal to Prefecture",
+            "Insert Fine Notification",
+            "Send Fine"
+        ]
+    ],
+    "branching_sets": [
+        [
+            "Add penalty",
+            "Appeal to Judge",
+            "Insert Date Appeal to Prefecture",
+            "Insert Fine Notification",
+            "Payment",
+            "Send Fine",
+            "Send for Credit Collection"
+        ],
+        [
+            "Add penalty",
+            "Appeal to Judge",
+            "Insert Date Appeal to Prefecture",
+            "Insert Fine Notification",
+            "Send Fine"
+        ],
+        [
+            "Appeal to Judge",
+            "Insert Fine Notification",
+            "Send Fine"
+        ]
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "min_segment_len": 2,
+    "parallel_sets": [
+        [
+            "Admission NC",
+            "CRP",
+            "ER Registration",
+            "ER Sepsis Triage",
+            "ER Triage",
+            "IV Antibiotics",
+            "IV Liquid",
+            "LacticAcid",
+            "Leucocytes"
+        ],
+        [
+            "ER Registration",
+            "ER Sepsis Triage",
+            "ER Triage",
+            "IV Antibiotics"
+        ]
+    ],
+    "branching_sets": [
+        [
+            "Admission NC",
+            "CRP",
+            "ER Registration",
+            "ER Sepsis Triage",
+            "ER Triage",
+            "IV Antibiotics",
+            "IV Liquid",
+            "LacticAcid",
+            "Leucocytes"
+        ],
+        [
+            "ER Registration",
+            "ER Sepsis Triage",
+            "ER Triage",
+            "IV Antibiotics"
+        ],
+        [
+            "Release C",
+            "Release D",
+            "Release E"
+        ]
+    ]
+}

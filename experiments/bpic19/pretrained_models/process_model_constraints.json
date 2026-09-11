@@ -1,0 +1,111 @@
+{
+    "min_segment_len": 2,
+    "parallel_sets": [
+        [
+            "Change Delivery Indicator",
+            "Change Quantity"
+        ],
+        [
+            "Cancel Invoice Receipt",
+            "Cancel Subsequent Invoice",
+            "Clear Invoice",
+            "Record Invoice Receipt",
+            "Record Subsequent Invoice",
+            "Remove Payment Block"
+        ],
+        [
+            "Cancel Invoice Receipt",
+            "Cancel Subsequent Invoice"
+        ],
+        [
+            "Change Currency",
+            "Change Price",
+            "Change payment term"
+        ],
+        [
+            "SRM: Change was Transmitted",
+            "SRM: Ordered"
+        ]
+    ],
+    "branching_sets": [
+        [
+            "Block Purchase Order Item",
+            "Cancel Goods Receipt",
+            "Cancel Invoice Receipt",
+            "Cancel Subsequent Invoice",
+            "Change Approval for Purchase Order",
+            "Change Currency",
+            "Change Delivery Indicator",
+            "Change Price",
+            "Change Quantity",
+            "Change Rejection Indicator",
+            "Change Storage Location",
+            "Change payment term",
+            "Clear Invoice",
+            "Create Purchase Order Item",
+            "Create Purchase Requisition Item",
+            "Delete Purchase Order Item",
+            "Reactivate Purchase Order Item",
+            "Receive Order Confirmation",
+            "Record Goods Receipt",
+            "Record Invoice Receipt",
+            "Record Service Entry Sheet",
+            "Record Subsequent Invoice",
+            "Release Purchase Order",
+            "Remove Payment Block",
+            "SRM: Awaiting Approval",
+            "SRM: Change was Transmitted",
+            "SRM: Complete",
+            "SRM: Created",
+            "SRM: Document Completed",
+            "SRM: Held",
+            "SRM: In Transfer to Execution Syst.",
+            "SRM: Incomplete",
+            "SRM: Ordered",
+            "Vendor creates debit memo",
+            "Vendor creates invoice"
+        ],
+        [
+            "Record Invoice Receipt",
+            "Record Subsequent Invoice"
+        ],
+        [
+            "Cancel Invoice Receipt",
+            "Cancel Subsequent Invoice"
+        ],
+        [
+            "Change Currency",
+            "Change Price",
+            "Change Rejection Indicator",
+            "Change Storage Location",
+            "Change payment term",
+            "Create Purchase Order Item",
+            "Reactivate Purchase Order Item",
+            "Receive Order Confirmation",
+            "SRM: Awaiting Approval",
+            "SRM: Change was Transmitted",
+            "SRM: Complete",
+            "SRM: Created",
+            "SRM: Document Completed",
+            "SRM: Held",
+            "SRM: In Transfer to Execution Syst.",
+            "SRM: Incomplete",
+            "SRM: Ordered"
+        ],
+        [
+            "SRM: Awaiting Approval",
+            "SRM: Change was Transmitted",
+            "SRM: Complete",
+            "SRM: Created",
+            "SRM: Document Completed",
+            "SRM: Held",
+            "SRM: In Transfer to Execution Syst.",
+            "SRM: Incomplete",
+            "SRM: Ordered"
+        ],
+        [
+            "SRM: Held",
+            "SRM: Incomplete"
+        ]
+    ]
+}

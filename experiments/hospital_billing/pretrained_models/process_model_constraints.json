@@ -1,0 +1,60 @@
+{
+    "min_segment_len": 2,
+    "parallel_sets": [
+        [
+            "CODE OK",
+            "RELEASE"
+        ]
+    ],
+    "branching_sets": [
+        [
+            "BILLED",
+            "CHANGE DIAGN",
+            "CHANGE END",
+            "CODE ERROR",
+            "CODE NOK",
+            "CODE OK",
+            "DELETE",
+            "FIN",
+            "JOIN-PAT",
+            "MANUAL",
+            "REJECT",
+            "RELEASE",
+            "REOPEN",
+            "SET STATUS",
+            "STORNO",
+            "ZDBC_BEHAN"
+        ],
+        [
+            "CHANGE DIAGN",
+            "CHANGE END",
+            "CODE ERROR",
+            "CODE NOK",
+            "CODE OK",
+            "FIN",
+            "MANUAL",
+            "REJECT",
+            "RELEASE",
+            "REOPEN",
+            "STORNO"
+        ],
+        [
+            "CHANGE DIAGN",
+            "CHANGE END",
+            "CODE ERROR",
+            "FIN",
+            "MANUAL",
+            "REJECT",
+            "REOPEN",
+            "STORNO"
+        ],
+        [
+            "CHANGE DIAGN",
+            "CHANGE END",
+            "CODE ERROR",
+            "REJECT",
+            "REOPEN",
+            "STORNO"
+        ]
+    ]
+}

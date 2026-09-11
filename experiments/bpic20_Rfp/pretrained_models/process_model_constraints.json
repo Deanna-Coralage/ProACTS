@@ -1,0 +1,39 @@
+{
+    "min_segment_len": 2,
+    "parallel_sets": [
+        [
+            "Request For Payment APPROVED by SUPERVISOR",
+            "Request For Payment FINAL_APPROVED by DIRECTOR"
+        ]
+    ],
+    "branching_sets": [
+        [
+            "Request For Payment APPROVED by ADMINISTRATION",
+            "Request For Payment APPROVED by BUDGET OWNER",
+            "Request For Payment APPROVED by PRE_APPROVER",
+            "Request For Payment REJECTED by ADMINISTRATION",
+            "Request For Payment REJECTED by EMPLOYEE",
+            "Request For Payment REJECTED by MISSING",
+            "Request For Payment REJECTED by PRE_APPROVER",
+            "Request For Payment REJECTED by SUPERVISOR",
+            "Request For Payment SUBMITTED by EMPLOYEE"
+        ],
+        [
+            "Request For Payment REJECTED by ADMINISTRATION",
+            "Request For Payment REJECTED by EMPLOYEE",
+            "Request For Payment REJECTED by MISSING",
+            "Request For Payment REJECTED by PRE_APPROVER",
+            "Request For Payment REJECTED by SUPERVISOR"
+        ],
+        [
+            "Request For Payment REJECTED by ADMINISTRATION",
+            "Request For Payment REJECTED by MISSING",
+            "Request For Payment REJECTED by PRE_APPROVER",
+            "Request For Payment REJECTED by SUPERVISOR"
+        ],
+        [
+            "Request For Payment APPROVED by SUPERVISOR",
+            "Request For Payment FINAL_APPROVED by DIRECTOR"
+        ]
+    ]
+}

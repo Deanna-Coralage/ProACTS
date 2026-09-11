@@ -1,0 +1,37 @@
+{
+    "min_segment_len": 2,
+    "parallel_sets": [
+        [
+            "A_FINALIZED",
+            "O_SELECTED"
+        ],
+        [
+            "A_DECLINED",
+            "O_DECLINED"
+        ],
+        [
+            "A_ACTIVATED",
+            "A_APPROVED",
+            "A_REGISTERED",
+            "O_ACCEPTED"
+        ]
+    ],
+    "branching_sets": [
+        [
+            "A_CANCELLED",
+            "A_FINALIZED",
+            "O_CREATED",
+            "O_SELECTED",
+            "O_SENT",
+            "O_SENT_BACK"
+        ],
+        [
+            "A_ACTIVATED",
+            "A_APPROVED",
+            "A_DECLINED",
+            "A_REGISTERED",
+            "O_ACCEPTED",
+            "O_DECLINED"
+        ]
+    ]
+}

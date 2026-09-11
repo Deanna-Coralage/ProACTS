@@ -1,0 +1,30 @@
+{
+    "min_segment_len": 2,
+    "parallel_sets": [
+        [
+            "A_Incomplete",
+            "A_Validating",
+            "O_Returned"
+        ]
+    ],
+    "branching_sets": [
+        [
+            "A_Complete",
+            "A_Incomplete",
+            "A_Validating",
+            "O_Create Offer",
+            "O_Created",
+            "O_Returned",
+            "O_Sent (mail and online)"
+        ],
+        [
+            "O_Create Offer",
+            "O_Created",
+            "O_Sent (mail and online)"
+        ],
+        [
+            "A_Denied",
+            "O_Refused"
+        ]
+    ]
+}

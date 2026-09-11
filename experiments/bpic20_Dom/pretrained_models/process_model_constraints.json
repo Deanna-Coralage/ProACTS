@@ -1,0 +1,38 @@
+{
+    "min_segment_len": 2,
+    "parallel_sets": [],
+    "branching_sets": [
+        [
+            "Declaration APPROVED by ADMINISTRATION",
+            "Declaration APPROVED by BUDGET OWNER",
+            "Declaration APPROVED by PRE_APPROVER",
+            "Declaration FOR_APPROVAL by SUPERVISOR",
+            "Declaration REJECTED by ADMINISTRATION",
+            "Declaration REJECTED by BUDGET OWNER",
+            "Declaration REJECTED by EMPLOYEE",
+            "Declaration REJECTED by MISSING",
+            "Declaration REJECTED by PRE_APPROVER",
+            "Declaration REJECTED by SUPERVISOR",
+            "Declaration SUBMITTED by EMPLOYEE"
+        ],
+        [
+            "Declaration FOR_APPROVAL by SUPERVISOR",
+            "Declaration REJECTED by ADMINISTRATION",
+            "Declaration REJECTED by BUDGET OWNER",
+            "Declaration REJECTED by EMPLOYEE",
+            "Declaration REJECTED by MISSING",
+            "Declaration REJECTED by PRE_APPROVER",
+            "Declaration REJECTED by SUPERVISOR"
+        ],
+        [
+            "Declaration FOR_APPROVAL by SUPERVISOR",
+            "Declaration REJECTED by BUDGET OWNER",
+            "Declaration REJECTED by MISSING"
+        ],
+        [
+            "Declaration REJECTED by ADMINISTRATION",
+            "Declaration REJECTED by PRE_APPROVER",
+            "Declaration REJECTED by SUPERVISOR"
+        ]
+    ]
+}

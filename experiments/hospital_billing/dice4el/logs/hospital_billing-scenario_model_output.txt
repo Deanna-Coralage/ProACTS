@@ -1,0 +1,8 @@
+Epoch 020/100 | Train Loss: 0.0001 | LR: 9.05e-04
+Epoch 040/100 | Train Loss: 0.0001 | LR: 6.55e-04
+Epoch 060/100 | Train Loss: 0.0001 | LR: 3.46e-04
+Epoch 080/100 | Train Loss: 0.0000 | LR: 9.64e-05
+Epoch 100/100 | Train Loss: 0.0000 | LR: 1.00e-06
+Time taken for scenario model (training): 38398.479972 seconds
+Time taken for scenario model (validation): 26.918051 seconds
+Val loss: {'loss': 0.00011195036198996804, 'accuracy': 0.9999861371424769, 'f1_macro': 0.9999815105155121, 'f1_weighted': 0.9999861371168334}
